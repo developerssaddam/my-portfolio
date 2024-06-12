@@ -72,7 +72,7 @@
 
   .home_title {
     font-size: 28px;
-    padding-left: 40px;
+    padding-left: 30px;
   }
 
   .home_title span {
@@ -87,12 +87,13 @@
   .color_block {
     transform: rotate(-7deg);
   }
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .home_title {
     font-size: 34px;
-    padding-left: 60px;
+    padding-left: 40px;
   }
   .home_title span {
     font-size: 16px;

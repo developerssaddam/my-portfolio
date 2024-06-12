@@ -60,75 +60,60 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: "First Name : ",
-    description: "Md. Saddam",
+    title: "First Name",
+    description: " : Md. Saddam",
   },
 
   {
     id: 2,
-    title: "Last Name : ",
-    description: "Hossen",
+    title: "Last Name",
+    description: " : Hossen",
   },
 
   {
     id: 3,
-    title: "Age : ",
-    description: "29 Years",
+    title: "Age",
+    description: " : 30 Years",
   },
 
   {
     id: 4,
-    title: "Nationality : ",
-    description: "Bangladeshi",
-  },
-
-  {
-    id: 5,
-    title: "Freelance : ",
-    description: "Available",
+    title: "Nationality ",
+    description: " : Bangladeshi",
   },
 
   {
     id: 6,
-    title: "Address : ",
-    description: "Gaibandha, Bangladesh",
+    title: "Address",
+    description: " : Gaibandha, Bangladesh",
   },
 
   {
     id: 7,
-    title: "Phone : ",
-    description: "01875894505",
+    title: "Phone",
+    description: " : 01875894505",
   },
 
   {
     id: 8,
-    title: "Email : ",
-    description: "reactdevssaddam@gmail.com",
+    title: "Email",
+    description: " : developerssaddam@gmail.com",
   },
 
   {
     id: 9,
-    title: "Skype : ",
-    description: "Saddam hossen",
+    title: "Skype",
+    description: " : Saddam hossen",
   },
 
   {
     id: 10,
-    title: "Langages : ",
-    description: "English, Bangla",
+    title: "Langages",
+    description: " : English, Bangla",
   },
 ];
 
 export const resume = [
-  // {
-  //   id: 1,
-  //   category: "experience",
-  //   icon: <FaBriefcase />,
-  //   year: "2018 - PRESENT",
-  //   title: "Web Developer <span> Envato </span>",
-  //   desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
-  // },
-
   {
     id: 1,
     category: "experience",
@@ -172,50 +157,128 @@ export const resume = [
 export const skills = [
   {
     id: 1,
-    title: "React.js",
+    title: "HTML5",
     percentage: "90",
   },
 
   {
     id: 2,
-    title: "Next.js",
-    percentage: "78",
+    title: "CSS3",
+    percentage: "85",
   },
 
   {
     id: 3,
-    title: "TypeScript",
-    percentage: "89",
+    title: "Bootstrap",
+    percentage: "80",
   },
 
   {
     id: 4,
-    title: "Node.js",
-    percentage: "82",
+    title: "Tailwind CSS",
+    percentage: "85",
   },
 
   {
     id: 5,
-    title: "Express.js",
-    percentage: "86",
+    title: "Daisy-ui",
+    percentage: "88",
   },
 
   {
     id: 6,
-    title: "MongoDB",
-    percentage: "95",
+    title: "Javascript",
+    percentage: "92",
   },
 
   {
     id: 7,
-    title: "SASS",
-    percentage: "87",
+    title: "React-js",
+    percentage: "85",
   },
 
   {
     id: 8,
-    title: "Tailwind CSS",
-    percentage: "65",
+    title: "React-router-dom",
+    percentage: "90",
+  },
+
+  {
+    id: 9,
+    title: "Firebase,",
+    percentage: "85",
+  },
+
+  {
+    id: 10,
+    title: "jwt-authentication",
+    percentage: "90",
+  },
+
+  {
+    id: 11,
+    title: "Tanstack-Query",
+    percentage: "85",
+  },
+
+  {
+    id: 12,
+    title: "Node.js",
+    percentage: "85",
+  },
+
+  {
+    id: 13,
+    title: "Express.js",
+    percentage: "90",
+  },
+
+  {
+    id: 14,
+    title: "Mongodb",
+    percentage: "80",
+  },
+
+  {
+    id: 15,
+    title: "Next.js",
+    percentage: "75",
+  },
+
+  {
+    id: 16,
+    title: "TypeScript",
+    percentage: "70",
+  },
+
+  {
+    id: 17,
+    title: "Redux",
+    percentage: "72",
+  },
+
+  {
+    id: 18,
+    title: "Redux-toolkit",
+    percentage: "70",
+  },
+
+  {
+    id: 19,
+    title: "Figma",
+    percentage: "85",
+  },
+
+  {
+    id: 20,
+    title: "Pixso.net",
+    percentage: "85",
+  },
+
+  {
+    id: 21,
+    title: "ChatGPT",
+    percentage: "90",
   },
 ];
 

@@ -5,9 +5,13 @@ const Info = () => {
     <>
       {personalInfo.map((item, index) => {
         return (
-          <li className="info_item" key={index}>
-            <span className="info_title">{item.title}</span>
-            <span className="info_desc">{item.description}</span>
+          <li style={{display: "flex"}} className="info_item" key={index}>
+            <div style={{width: "30%"}}>
+              <span className="info_title">{item.title}</span>
+            </div>
+            <div style={{width: "70%"}}>
+              <span className="info_desc">{item.description}</span>
+            </div>
           </li>
         );
       })}

@@ -15,7 +15,7 @@ const About = () => {
           About <span>Me</span>
         </h2>
 
-        <div className="about_container grid">
+        <div className="about_container">
           <div className="about_info">
             <h3 className="personal_info_title">Personal Info.</h3>
 
@@ -30,7 +30,9 @@ const About = () => {
               </span>
             </a>
           </div>
-          <img src={home} alt="Home images" />
+          <div className="about_img">
+            <img src={home} alt="Home images" />
+          </div>
         </div>
       </section>
 
@@ -38,7 +40,7 @@ const About = () => {
 
       <section className="skills">
         <h3 className="subtitle"> My Skills </h3>
-        <div className="skill_container grid">
+        <div className="skill_container">
           <Skills />
         </div>
       </section>
