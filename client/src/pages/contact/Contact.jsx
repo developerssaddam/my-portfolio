@@ -5,9 +5,7 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
-
 import { FiSend } from "react-icons/fi";
-
 import "./contact.css";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -59,7 +57,7 @@ const Contact = () => {
   return (
     <>
       <section className="contact section">
-        <h2 className="section_title">
+        <h2 className="section_title contact_section_title">
           Get In <span>Touch</span>
         </h2>
 
@@ -78,8 +76,8 @@ const Contact = () => {
                 <FaEnvelopeOpen className="info_icon" />
 
                 <div>
-                  <span className="info_title">Mail me</span>
-                  <h4 className="info_desc">reactdevssaddam@gmail.com</h4>
+                  <span className="info_title">Mail to me</span>
+                  <h4 className="info_desc">developerssaddam@gmail.com</h4>
                 </div>
               </div>
 
@@ -160,7 +158,7 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button type="submit" className="button">
+            <button type="submit" className="button contact_btn">
               Send Message
               <span className="button_icon contact_button_icon">
                 <FiSend />

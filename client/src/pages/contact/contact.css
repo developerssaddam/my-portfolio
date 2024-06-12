@@ -39,7 +39,7 @@
   font-weight: var(--weight-500);
 }
 
-.contact_form{
+.contact_form {
   max-width: 600px;
 }
 
@@ -99,10 +99,11 @@
   line-height: 64px;
 }
 
-
-
 @media screen and (max-width: 768px) {
-  .contact_container{
+  .contact .contact_section_title {
+    font-size: 40px;
+  }
+  .contact_container {
     grid-template-columns: 1fr;
   }
 
@@ -111,11 +112,13 @@
     grid-template-columns: 1fr;
     column-gap: 30px;
   }
-  
+
   .textarea {
     height: 150px;
     resize: none;
   }
-}
 
- 
+  .contact_btn {
+    width: 100%;
+  }
+}
