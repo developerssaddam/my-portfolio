@@ -12,6 +12,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { sendMail } from "../../features/mailApiSlice";
 import { setMessageEmpty } from "../../features/mailSlice";
 import { tostifyAlert } from "../../utils/toastifyAlert";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const dispatch = useDispatch();
@@ -92,23 +93,29 @@ const Contact = () => {
             </div>
 
             <div className="contact_socils">
-              <a
-                href="https://www.linkedin.com/in/developer-saddam/"
+              <Link
+                to="https://www.linkedin.com/in/developer-saddam"
+                target="blank"
                 className="social_link"
               >
                 <FaLinkedin />
-              </a>
+              </Link>
 
-              <a
-                href="https://www.facebook.com/profile.php?id=100015157110543"
+              <Link
+                to="https://www.facebook.com/profile.php?id=100015157110543"
+                target="blank"
                 className="social_link"
               >
                 <FaFacebookF />
-              </a>
+              </Link>
 
-              <a href="#" className="social_link">
+              <Link
+                to="https://www.instagram.com/mdsaddam4310/?hl=en"
+                target="blank"
+                className="social_link"
+              >
                 <FaInstagram />
-              </a>
+              </Link>
             </div>
           </div>
 

@@ -6,7 +6,7 @@ import "./home.css";
 
 const Home = () => {
   const [text] = useTypewriter({
-    words: ["I'm Saddam Hossen."],
+    words: ["Md Saddam Hossen."],
     loop: 0,
     typeSpeed: 80,
     deleteSpeed: 0,
