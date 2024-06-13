@@ -52,7 +52,7 @@ const Contact = () => {
       tostifyAlert(message, "success");
       dispatch(setMessageEmpty());
     }
-  }, [error, message]);
+  }, [error, dispatch, message]);
 
   return (
     <>
