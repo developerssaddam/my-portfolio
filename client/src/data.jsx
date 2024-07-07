@@ -7,6 +7,10 @@ import {
   FaGraduationCap,
 } from "react-icons/fa";
 
+import Work1 from "./assets/img1.avif";
+import Work2 from "./assets/img2.webp";
+import Work3 from "./assets/img3.jpg";
+
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
 import Theme3 from "./assets/blueviolet.png";
@@ -101,6 +105,131 @@ export const personalInfo = [
     id: 10,
     title: "Langages",
     description: " : English, Bangla",
+  },
+];
+
+export const portfolio = [
+  {
+    id: 1,
+    img: Work1,
+    title: "Nano-Tasker",
+    desc: "Discover micro-task opportunities on our platform where you can earn by completing quick, simple tasks online. Whether it's surveys, data entry, or other digital tasks, we connect you with tasks that fit your skills. Join now to start earning instantly!",
+    featured: [
+      {
+        description:
+          "This is a earning website. Here users can earn money by completing some micro tasks.",
+      },
+      {
+        description:
+          "Users get a secure payment system that will have him/she withdraw her/his coin to a dollar amount.",
+      },
+      {
+        description:
+          "Here is an admin dashboard and user role authentication system. A role is admin he/she gets an admin route where he/she sees the total users and total sales and also changes the role of any users to an admin.",
+      },
+    ],
+    technology:
+      "React.js, React-router-dom, Javascript, Tailwind css, daisy ui, firebase, Express.js, mongodb, stripe-payment methods and others packages",
+    links: [
+      {
+        id: 1,
+        title: "Live-Link",
+        link: "https://nano-tasker.web.app",
+      },
+      {
+        id: 2,
+        title: "Github-Client",
+        link: "https://github.com/developerssaddam/nano-tasker-client",
+      },
+      {
+        id: 3,
+        title: "Live-Link",
+        title: "Github-Server",
+        link: "https://github.com/developerssaddam/nano-tasker-server",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: Work2,
+    title: "Food-Lane",
+    desc: "Explore fresh flavors and quality ingredients on our food purchase website. From pantry staples to gourmet treats, shop conveniently online and have your groceries delivered to your doorstep. Enjoy hassle-free browsing, secure transactions, and reliable delivery service. Join us to simplify your grocery shopping experience today!",
+    featured: [
+      {
+        description:
+          "This is a food order and management web-app. Here, a logged in user can see the most popular food items on the home page. Here is a details button that redirect an user food details page, here is an user purchase and food items.",
+      },
+      {
+        description:
+          "An user gets to see all the purchased food items in a route where the user can delete items and also pay.",
+      },
+      {
+        description:
+          "In this pay route, the user can pay by stripe payment methods for the total amount of food and the user can see his/her payment history in this payment history route.",
+      },
+    ],
+    technology:
+      "React.js, React-router-dom, Javascript, Tailwind css, daisy ui, firebase, Express.js, mongodb, stripe-payment methods and others packages.",
+    links: [
+      {
+        id: 1,
+        title: "Live-Link",
+        link: "https://food-lane-9e48d.web.app",
+      },
+      {
+        id: 2,
+        title: "Github-Client",
+        link: "https://github.com/developerssaddam/FoodLane-client",
+      },
+      {
+        id: 3,
+        title: "Live-Link",
+        title: "Github-Server",
+        link: "https://github.com/developerssaddam/FoodLane-server",
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    img: Work3,
+    title: "RoamCraft",
+    desc: "Plan your perfect getaway with our tourism management website. Explore destinations worldwide, find exclusive deals on flights, hotels, and activities tailored to your preferences. Whether it's a relaxing beach vacation or an adventurous city escape, we make travel planning seamless. Join us and embark on your dream vacation with ease.",
+    featured: [
+      {
+        description:
+          "This web-app provides tourist interesting places of tourism. Where can a tourist visit any kind of places of view details page with cost of tour.",
+      },
+      {
+        description:
+          "In this route all tourist spot pages show all tourist spot places of this web-app. Here a tourist can have a sorted list of tourist-places based on average cost.",
+      },
+      {
+        description:
+          "Here is an user add tourist spot places by add tourist spot route and see all added items in my list route. Here is also an user can edit and delete a tourist spot.",
+      },
+    ],
+    technology:
+      "React.js, React-router-dom, Javascript, Tailwind css, daisy ui, firebase and others packages.",
+    links: [
+      {
+        id: 1,
+        title: "Live-Link",
+        link: "https://tourism-management-syste-e8d0a.web.app",
+      },
+      {
+        id: 2,
+        title: "Github-Client",
+        link: "https://github.com/developerssaddam/Roam-craft-client",
+      },
+      {
+        id: 3,
+        title: "Live-Link",
+        title: "Github-Server",
+        link: "https://github.com/developerssaddam/Roam-craft-server",
+      },
+    ],
   },
 ];
 
