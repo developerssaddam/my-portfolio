@@ -22,6 +22,28 @@ import Theme8 from "./assets/orange.png";
 import Theme9 from "./assets/green.png";
 import Theme10 from "./assets/yellow.png";
 
+// skills images
+import html from "./assets/skills/html.jpg";
+import css from "./assets/skills/css.png";
+import bootstrap from "./assets/skills/bootstrap.jpg";
+import tailwind from "./assets/skills/tailwind.png";
+import daisyui from "./assets/skills/daisyui.png";
+import js from "./assets/skills/js.webp";
+import react from "./assets/skills/react.png";
+import reactRouter from "./assets/skills/react_router.png";
+import firebase from "./assets/skills/firebase.png";
+import jwt from "./assets/skills/jwt.png";
+import tanstack from "./assets/skills/tanstack.png";
+import node from "./assets/skills/node.png";
+import express from "./assets/skills/express.png";
+import mongodb from "./assets/skills/mongodb.png";
+import nextjs from "./assets/skills/next.png";
+import typescript from "./assets/skills/ts.png";
+import redux from "./assets/skills/redux.svg";
+import figma from "./assets/skills/figma.jfif";
+import pixso from "./assets/skills/pixso.png";
+import chat from "./assets/skills/chat.jpg";
+
 export const links = [
   {
     id: 1,
@@ -278,127 +300,127 @@ export const skills = [
   {
     id: 1,
     title: "HTML5",
-    percentage: "90",
+    img: html,
   },
 
   {
     id: 2,
     title: "CSS3",
-    percentage: "85",
+    img: css,
   },
 
   {
     id: 3,
     title: "Bootstrap",
-    percentage: "80",
+    img: bootstrap,
   },
 
   {
     id: 4,
     title: "Tailwind CSS",
-    percentage: "85",
+    img: tailwind,
   },
 
   {
     id: 5,
     title: "Daisy-ui",
-    percentage: "88",
+    img: daisyui,
   },
 
   {
     id: 6,
     title: "Javascript",
-    percentage: "92",
+    img: js,
   },
 
   {
     id: 7,
     title: "React-js",
-    percentage: "85",
+    img: react,
   },
 
   {
     id: 8,
     title: "React-router-dom",
-    percentage: "90",
+    img: reactRouter,
   },
 
   {
     id: 9,
     title: "Firebase,",
-    percentage: "85",
+    img: firebase,
   },
 
   {
     id: 10,
     title: "jwt-authentication",
-    percentage: "90",
+    img: jwt,
   },
 
   {
     id: 11,
     title: "Tanstack-Query",
-    percentage: "85",
+    img: tanstack,
   },
 
   {
     id: 12,
     title: "Node.js",
-    percentage: "85",
+    img: node,
   },
 
   {
     id: 13,
     title: "Express.js",
-    percentage: "90",
+    img: express,
   },
 
   {
     id: 14,
     title: "Mongodb",
-    percentage: "80",
+    img: mongodb,
   },
 
   {
     id: 15,
     title: "Next.js",
-    percentage: "75",
+    img: nextjs,
   },
 
   {
     id: 16,
     title: "TypeScript",
-    percentage: "70",
+    img: typescript,
   },
 
   {
     id: 17,
     title: "Redux",
-    percentage: "72",
+    img: redux,
   },
 
   {
     id: 18,
     title: "Redux-toolkit",
-    percentage: "70",
+    img: redux,
   },
 
   {
     id: 19,
     title: "Figma",
-    percentage: "85",
+    img: figma,
   },
 
   {
     id: 20,
     title: "Pixso.net",
-    percentage: "85",
+    img: pixso,
   },
 
   {
     id: 21,
     title: "ChatGPT",
-    percentage: "90",
+    img: chat,
   },
 ];
 

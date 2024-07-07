@@ -9,11 +9,7 @@ const Skills = () => {
         return (
           <div className="progress_box" key={index}>
             <div className="progress_circle">
-              <CircularProgressbar
-                strokeWidth={6.5}
-                value={item.percentage}
-                text={`${item.percentage}%`}
-              />
+              <img src={item.img} alt="skills-logo" />
             </div>
             <div className="skill_title">{item.title}</div>
           </div>
